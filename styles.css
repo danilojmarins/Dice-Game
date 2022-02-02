@@ -1,0 +1,77 @@
+body {
+    background-color: #333336;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    color: #D9CAB3;
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    color: #D9CAB3;
+    font-size: 2rem;
+}
+
+img {
+    width: 200px;
+}
+
+.game-info {
+    margin: 7% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 550px 0 550px;
+}
+
+@media (max-width: 1800px) {
+    .game-info {
+        padding: 0 400px 0 400px;
+    }
+}
+@media (max-width: 1550px) {
+    .game-info {
+        padding: 0 300px 0 300px;
+    }
+}
+@media (max-width: 1350px) {
+    .game-info {
+        padding: 0 200px 0 200px;
+    }
+}
+@media (max-width: 1100px) {
+    .game-info {
+        padding: 0 100px 0 100px;
+    }
+}
+@media (max-width: 850px) {
+    .game-info {
+        padding: 0;
+    }
+}
+@media (max-width: 575px) {
+    .game-info {
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+}
+
+.footer {
+    margin-top: 160px;
+}
+.footer-text {
+    color: white;
+    font-size: 1.3rem;
+}
+.fa-dice-one {
+    font-size: 0.8rem;
+}
+.fab {
+    font-size: 1.8rem;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
